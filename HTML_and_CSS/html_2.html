@@ -1,5 +1,8 @@
 <!-- To write CSS, we need to add the style element -->
 <style>
+    div {
+        margin-bottom: 10px;
+    }
     /* 
     CSS Selector - which elements we're targeting 
     If selector starts with a dot, it targets a class
@@ -28,7 +31,125 @@
         cursor: pointer;
     }
 
+    .tweet {
+        background-color: rgb(19, 149, 230);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 70px;
+        border-radius: 17px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .uber {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 120px;
+        border: none;
+    }
+
+    .amazon {
+        background-color: rgba(255, 216, 20);
+        border: none;
+        width: 170px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .github {
+        background: rgba(46, 164, 79);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 90px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .bootstrap-started {
+        background-color: rgba(121, 82, 179);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 110px;
+        border-radius: 5px;
+    }
+
+    .bootstrap-download {
+        background-color: white;
+        color: rgba(108, 117, 125);
+        border: solid;
+        border-width: 1px;
+        height: 40px;
+        width: 110px;
+        border-radius: 5px;
+    }
+
+    .linkedin-apply {
+        background-color: rgba(10, 102, 194);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 220px;
+        border-radius: 50px;
+        font-weight: bold;
+    }
+
+    .linkedin-save {
+        background-color: white;
+        color: rgba(10, 102, 194);
+        border: solid;
+        border-width: 1px;
+        height: 35px;
+        width: 70px;
+        border-radius: 17px;
+        font-weight: bold;
+    }
+
+
+
 </style>
 
-<button class="sub">SUBSCRIBE</button>
-<button class="join">JOIN</button>
+<div>
+    <span>Tutorial</span>
+    <br>
+    <button class="sub">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+</div>
+
+<div>
+    <span>2a. Uber button</span>
+    <br>
+    <button class="uber">Request now</button>
+</div>
+
+<div>
+    <span>2b. Amazon</span>
+    <br>
+    <button class="amazon">Add to Cart</button>
+</div>
+
+<div>
+    <span>2c. GitHub</span>
+    <br>
+    <button class="github">Sign up</button>
+</div>
+
+<div>
+    <span>2d. Bootstrap</span>
+    <br>
+    <button class="bootstrap-started">Get started</button>
+    <button class="bootstrap-download">Download</button>
+</div>
+
+<div>
+    <span>2e. LinkedIn</span>
+    <br>
+    <button class="linkedin-apply">Apply on company website</button>
+    <button class="linkedin-save">Save</button>
+</div>
