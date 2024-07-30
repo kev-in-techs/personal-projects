@@ -17,6 +17,19 @@
         border-radius: 3px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
+    }
+
+    /* 
+    Pseudo-class - adds certain styles in certain situations
+    Styles applied only when hovered */
+    .sub:hover {
+        opacity: 0.8;
+    }
+
+    /* Styles applied only when clicked */
+    .sub:active {
+        opacity: 0.5;
     }
 
     .join {
@@ -29,6 +42,15 @@
         width: 60px;
         border-radius: 3px;
         cursor: pointer;
+    }
+
+    .join:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    .join:active {
+        opacity: 0.7;
     }
 
     .tweet {
