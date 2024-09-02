@@ -1,0 +1,51 @@
+.pagination-back {
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+.pagination-next {
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+
+.stretch {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: padding 0.5s;
+}
+
+.stretch:hover { 
+    padding: 10px 20px;
+}
+
+.shadow {
+    background-color: green;
+    border: none;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.shadow:active {
+    margin-left: 3px;
+    margin-top: 3px;
+    box-shadow: none;
+}
+
+.margin-padding {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    margin: 0px 5px;
+    font-size: 20px;
+    transition: padding 0.15s, margin 0.15s;
+}
+
+.margin-padding:hover { 
+    padding: 7px 20px;
+    margin: 0px 0px;
+}
