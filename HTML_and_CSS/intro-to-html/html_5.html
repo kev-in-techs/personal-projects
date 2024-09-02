@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .a {
+                width: 200px;
+                border-radius: 5px;
+            }
+
+            .b {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .c {
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .d {
+                border-radius: 5px;
+                border-style: solid;
+                border-width: 1px;
+                padding: 7px 10px;
+                border-color: grey;
+            }
+
+            .e {
+                font-size: 16px;
+                width: 500px;
+                border: none;
+                padding: 12px 15px;
+                border-radius: 30px;
+                box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            p {
+                margin: 0 0;
+            }
+            .linkedin-label {
+                margin-top: 0px;
+                margin-bottom: 6px;
+                font-family: Arial;
+                color: grey;
+                font-size: 13px;
+            }
+
+            .linkedin-email {
+                width: 500px;
+                padding: 4px 0px;
+                margin-top: 0px;
+                margin-bottom: 15px;
+                border-width: 2px;
+                border-style: solid;
+                border-radius: 5px;
+            }
+
+            .linkedin-disclaimer {
+                font-family: Arial;
+                color: grey;
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+
+            .linkedin-button {
+                width: 500px;
+                color: white;
+                background-color: rgb(24, 115, 235);
+                border: none;
+                border-radius: 250px;
+                padding: 13px 0px;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <span>7a. Load the image, set width to 200px and add rounded corners</span>
+        <br>
+        <img class="a" src="./cat.jpg" alt="">
+        <br>
+
+        <span>7b. Make the image a square, center the image within the square</span>
+        <br>
+        <img class="b" src="./cat.jpg" alt="">
+        <br>
+
+        <span>7c. Make the image a circle (using border-radius)</span>
+        <br>
+        <img class="c" src="./cat.jpg" alt="">
+        <br>
+
+        <span>Create a textbox:</span>
+        <br>
+        <span>7d. With rounded corners</span>
+        <input class="d" type="text" placeholder="Search">
+        <br>
+
+        <span>7e. With a shadow, and no border-color</span>
+        <input class="e" type="text" placeholder="Search Google or type a URL">
+        <br>
+
+        <span>7f. LinkedIn Signup</span>
+        <br>
+        <p class="linkedin-label">Email</p>
+        <input class="linkedin-email" type="email">
+        <p class="linkedin-disclaimer">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="linkedin-button">Agree & Join</button>
+    </body>
+</html>
