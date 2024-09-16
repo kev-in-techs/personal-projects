@@ -4,14 +4,31 @@
         <title>YouTube Clone</title>
         <style>
             .thumbnail {
-                width: 276px;
-                height: 300px;
-                object-fit: cover; 
-                object-position: center;
+                display: block;
+                width: 300px
             }
+
+            .search-bar {
+
+            }
+
+            .video-title {
+                width: 300px;
+            }
+
+            /* 
+                HTML elements can either be BLOCK or INLINE-BLOCK
+                BLOCK elements take up the entire line
+                INLINE-BLOCK elements only take up required space
+            */
         </style>
     </head>
     <body>
+        <input class="search-bar" type="text" placeholder="Search">
         <img class="thumbnail" src="./thumbnails/thumbnail-1.jpg" alt="">
+        
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="video-author">Marques Brownlee</p>
+        <p class="video-stats">3.4M Views &#183; 6 months ago</p>
     </body>
 </html>

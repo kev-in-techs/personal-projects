@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .a-name, .a-email {
+                display: block;
+            }
+
+            .b-texts {
+                width: 200px;
+                display: inline-block;
+            }
+
+            .b-texts, .b-yes, .b-no {
+                vertical-align: middle;
+            }
+
+            .d-email {
+                display: block;
+            }
+
+            .d-first, .d-last, .d-email {
+                border: solid;
+                border-color: rgb(193, 193, 193);
+                border-width: 2px;
+                font-size: 16px;
+                margin: 7px 0px;
+                padding: 10px 13px;
+                border-radius: 10px;
+            }
+
+            .d-email {
+                width: 335px;
+            }
+
+            .d-first, .d-last {
+                width: 150px;
+            }
+
+            .d-btn {
+                border: none;
+                width: 365px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgb(0, 128, 255);
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>8a. Create 2 text boxes and put them on seperate lines (using display: block)</p>
+        <input class="a-name" type="text" placeholder="Name">
+        <input class="a.email" type="text" placeholder="Email">
+
+        <p>8b. Create a paragraph and 2 buttons and place them on the same line (using width, display: inline-block and vertical-align: middle)</p>
+        <p class="b-texts">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="b-yes">Yes</button>
+        <button class="b-no">No</button>
+
+        <p>8d. Sign up form</p>
+        <input class="d-first" type="text" placeholder="First name">
+        <input class="d-last" type="text" placeholder="Last name">
+        <input class="d-email" type="text" placeholder="Email">
+        <button class="d-btn">Sign up</button>
+    </body>
+</html>
