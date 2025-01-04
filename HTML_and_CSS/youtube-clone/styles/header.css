@@ -3,10 +3,18 @@
 }
 
 .header {
-    height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    height: 55px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
 }
 
 .left-section {
