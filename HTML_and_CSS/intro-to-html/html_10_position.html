@@ -41,5 +41,34 @@
             width: 200px;">
             div2
         </div>
+
+        <!-- 14b. Create a sidebar on the right side of the page, width = 100px -->
+        <div style="
+        position: fixed;
+        background-color: green;
+        color: white;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+        ">right sidebar</div>
+
+        <div style="
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ">
+            <div style="background-color: white; width: 400px; height: 150px; padding-left: 20px; border-radius: 10px;">
+                <p style="font-family: Arial; font-weight: bold; font-size: 30px; margin-bottom: 0;">Modal Title</p>
+                <p style="font-family: Arial; font-size: 17px; margin-bottom: 10px;">This is a modal</p>
+                <button>Close</button>
+            </div>
+        </div>
     </body>
 </html>
